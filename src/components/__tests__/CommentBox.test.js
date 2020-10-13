@@ -39,5 +39,5 @@ describe('the text area', () => {
     wrapped.find('form').simulate('submit');
     wrapped.update();
     expect(wrapped.find('textarea').prop('value')).toEqual('');
-  })
+  }) 
 })
