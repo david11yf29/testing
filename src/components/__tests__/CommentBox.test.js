@@ -9,7 +9,7 @@ beforeEach(() => {
 })
 
 afterEach(() => {
-  
+  wrapped.unmount();
 })
 
 it('has a text area and a button',() => {
