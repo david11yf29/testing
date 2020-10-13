@@ -18,5 +18,7 @@ it('has a text area and a button',() => {
 });
 
 it('has a text area that users can type in',() => {
-  
+  wrapped.find('textarea').simulate('change', {
+    target: { value: 'new comment' }
+  })
 })
